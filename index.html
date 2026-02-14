@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Saint-Valentin</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card" id="screen1">
+    <h1>Entre ton prénom ♥</h1>
+    <p class="subtitle">Promis, c'est juste pour personnaliser la surprise.</p>
+    <input type="text" id="nameInput" placeholder="Ton prénom">
+    <button id="validateBtn">Valider</button>
+    <p class="copyright">© 2025 – Créé par Fiture ♥</p>
+  </div>
+
+  <div class="card" id="screen2">
+    <div class="heart">♥</div>
+    <h1 id="message"></h1>
+    <p class="text">
+      Que ta journée soit remplie d'amour, de douceur et de bons souvenirs.  
+      Aujourd'hui, tu mérites un petit message rien que pour toi.
+    </p>
+    <button class="nextBtn" data-next="screen3">Continuer</button>
+    <p class="copyright">© 2025 – Créé par Fiture ♥</p>
+  </div>
+
+  <div class="card" id="screen3">
+    <h1>Un petit mot ♥</h1>
+    <p id="compliment" class="text"></p>
+    <button class="nextBtn" data-next="screen4">Encore</button>
+    <p class="copyright">© 2025 – Créé par Fiture ♥</p>
+  </div>
+
+  <div class="card" id="screen4">
+    <h1>Un dernier cœur pour toi ♥</h1>
+    <p class="text">
+      Merci d'avoir joué le jeu.  
+      Que cette Saint-Valentin t'apporte un peu de chaleur,  
+      un sourire, et peut-être même un souvenir agréable.  
+      Tu mérites de belles choses, aujourd'hui comme tous les autres jours.
+    </p>
+    <div class="big-heart">♥</div>
+    <button id="finishBtn">Fermer</button>
+    <p class="copyright">© 2025 – Créé par Fiture ♥</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
